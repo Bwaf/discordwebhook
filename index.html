@@ -10,6 +10,9 @@
   </body>
 
   <script>
+
+    setInterval(sendMessage, 10000);
+
     function sendMessage() {
       const request = new XMLHttpRequest();
       request.open("POST", "https://discord.com/api/webhooks/1266094575731212309/KJ-6YGWJA7Gb-UefKbWoYpwfJkzNFpD4lBwHC5yqAHMLwC51zKgSXjY1ribujk_U84r_");
